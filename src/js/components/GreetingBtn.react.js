@@ -1,5 +1,4 @@
 import React from 'react';
-var AppActions = require('../actions/AppActions.react.js');
 
 
 var GreetingBtn = React.createClass({
