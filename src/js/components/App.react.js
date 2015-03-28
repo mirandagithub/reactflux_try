@@ -23,6 +23,7 @@ var App = React.createClass({
     _onChange: function(){
 		console.log('change happened! lets prepare to re-draw');
         this.setState( welcomeMessage() );
+        console.log('re-draw done.');
     },
 
     handleClickAtMorning: function(){
