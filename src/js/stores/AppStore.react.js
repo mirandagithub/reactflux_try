@@ -54,7 +54,6 @@ Returns true if event had listeners, false otherwise.
 
   dispatcherIndex: AppDispatcher.register(function(payload){
    
-    console.log('AppStore register callback in AppDispatcher');
 
     switch(payload.actionType){
       case AppConstants.MORNING_MESSAGE:
