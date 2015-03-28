@@ -52,9 +52,8 @@ Returns true if event had listeners, false otherwise.
   },
 
 
-  dispatcherIndex: AppDispatcher.register(function(payload){
+  dispatchToken: AppDispatcher.register(function(payload){
    
-
     switch(payload.actionType){
       case AppConstants.MORNING_MESSAGE:
         console.log('AppStore is doing actions for Morning Msg');
